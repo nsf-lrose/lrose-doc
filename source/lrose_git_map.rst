@@ -48,4 +48,7 @@ NCAR
 +----------------------+----------------------------------------------+---------------------------------------------+
 | lrose-release-test   | Repository for testing releases.             | https://github.com/NCAR/lrose-release-test  |
 +----------------------+----------------------------------------------+---------------------------------------------+
-
+| lrose-examples       | Examples for testing LROSE builds, installs, | https://github.com/NCAR/lrose-examples      |
+|                      | and some apps. Docker files and scripts for  |                                             |
+|                      | continuous integration.                      |                                             |
++----------------------+----------------------------------------------+---------------------------------------------+
