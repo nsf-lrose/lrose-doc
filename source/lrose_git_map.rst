@@ -32,4 +32,19 @@ NCAR
 +----------------------+----------------------------------------------+---------------------------------------------+
 | lrose-netcdf         | NetCDF support libraries for the core        | https://github.com/NCAR/lrose-netcdf        |
 +----------------------+----------------------------------------------+---------------------------------------------+
+| lrose-docs           | General documentation for lrose-core         | https://github.com/NCAR/lrose-docs          |
++----------------------+----------------------------------------------+---------------------------------------------+
+| lrose-emerald        | MatLab(c) display for CfRadial files         | https://github.com/NCAR/lrose-emerald       |
++----------------------+----------------------------------------------+---------------------------------------------+
+| lrose-soloii         | Code for legacy soloii display in C          | https://github.com/NCAR/lrose-soloii        |
++----------------------+----------------------------------------------+---------------------------------------------+
+| lrose-solo3          | Code for legacy solo3 display in C++         | https://github.com/NCAR/lrose-solo3         |
++----------------------+----------------------------------------------+---------------------------------------------+
+| lrose-cedric         | Code for legacy CEDRIC application           | https://github.com/NCAR/lrose-cedric        |
+|                      | This includes SPRINT and the PPI display     |                                             |
++----------------------+----------------------------------------------+---------------------------------------------+
+| lrose-reorder        | Code for legacy REORDER application          | https://github.com/NCAR/lrose-reorder       |
++----------------------+----------------------------------------------+---------------------------------------------+
+| lrose-release-test   | Repository for testing releases              | https://github.com/NCAR/lrose-release-test  |
++----------------------+----------------------------------------------+---------------------------------------------+
 
