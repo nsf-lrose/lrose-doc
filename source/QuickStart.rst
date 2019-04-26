@@ -3,6 +3,21 @@ LROSE Blaze Quick Start
 
 Follow these steps to get up and running quickly with LROSE, and then continue through the documentation for more details about LROSE software.
 
+A Basic LROSE Workflow
+----------------------
+
+This quick start guide covers a basic LROSE analysis workflow:
+
+1. Print data header from a NEXRAD file using RadxPrint.
+
+2. Convert Level II data to CfRadial format using RadxConvert.
+
+3. Display the data in CfRadial format using Hawkeye.
+
+4. Perform coordinate transformations from the polar grid to a Cartesian grid using Radx2Grid.
+
+- The following tutorial highlights how to perform the basic commands which can be used as 'building blocks' for more complex workflows. See the rest of the documentation for more details.
+
 Install
 -------
 
@@ -15,7 +30,7 @@ Get some data
 
 - A sample NEXRAD level II file is available here_ for use with this quick start guide
 
-.. _here: ../../../assets/Level2_KAMX_20161006_1906.ar2v
+.. _here: ../../../downloads/Level2_KAMX_20161006_1906.ar2v
 
 If you have your own data, just replace the filename in all the subsequent examples with your data
 
@@ -52,7 +67,7 @@ It will work on any file that is recognized by RadxPrint from the first step thr
 
 .. code:: bash
 
-    lrose -- RadxConvert -f $PWD/Level2_KAMX_20161006_1906.ar2v -outdir $PWD
+    lrose -- RadxConvert -f $PWD/Level2_KAMX_20161006_1906.ar2v -outdir $PWD/output
 
 Display the data in HawkEye
 ---------------------------
@@ -86,4 +101,8 @@ Continue with the documentation to find out more about LROSE and the many option
 Jupyter Notebook Starter Kit
 ----------------------------
 
-- All of the following steps are available in Jupyter Notebook tutorials in Julia and Python. You can clone or download the starter kit from our webpage.
+- All of the following steps are available in Jupyter Notebook tutorials in Julia and Python. You can clone_ the notebook or download_ the whole starter kit with input and expected output files.
+
+.. _clone: https://github.com/nsf-lrose/lrose-blaze/tree/master/docs/starter_kit
+
+.. _download: https://github.com/nsf-lrose/lrose-blaze/releases/download/lrose-blaze-alpha/lrose-blaze-starter-kit.tgz
