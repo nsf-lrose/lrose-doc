@@ -23,6 +23,8 @@ Welcome to NSF-LROSE's documentation!
    docker-container
    README_source_linux
    README_source_mac
+   howtorun_fractl
+   FRACTL
 
 Indices and tables
 ==================
