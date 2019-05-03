@@ -20,6 +20,11 @@ Welcome to NSF-LROSE's documentation!
    HawkEye
    howtorun_radx2grid
    Radx2Grid
+   howtorun_radxbeamblock
+   howtorun_radxkdp
+   howtorun_radxpid
+   howtorun_radxrate
+   howtorun_radxqpe   
    docker-container
    README_source_linux
    README_source_mac
